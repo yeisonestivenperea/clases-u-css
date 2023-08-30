@@ -1,0 +1,15 @@
+/* Configuración de hoja */
+@page {
+    size: A4;
+    margin: 2cm;
+}
+
+/* Estilos de impresion */
+@media print{
+    header{
+        
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        text-aling: center;
+    }
+}
